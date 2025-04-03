@@ -31,11 +31,11 @@ public class ListManagerTest {
     @Test
     public void shouldRemoveElementFromTheList(){
 
-//        list.add(1);
-//        list.add(2);
-//        list.add(3);
-        listManager.removeElement(list,4);
-        Assertions.assertFalse(list.contains(1));
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        boolean isPresent = listManager.removeElement(list,2);
+        Assertions.assertEquals(true, isPresent);
 
     }
 

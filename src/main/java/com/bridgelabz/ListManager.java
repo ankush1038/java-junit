@@ -8,8 +8,8 @@ public class ListManager {
         list.add(element);
     }
 
-    public void removeElement(List<Integer> list, int element){
-        list.remove(Integer.valueOf(element));
+    public boolean removeElement(List<Integer> list, int element){
+        return list.remove(Integer.valueOf(element));
     }
 
     public int updateElement(List<Integer> list){
