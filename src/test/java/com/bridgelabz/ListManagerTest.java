@@ -1,9 +1,9 @@
-import com.bridgelabz.ListManager;
+package com.bridgelabz;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import org.junit.jupiter.api.Test;
 import java.util.*;
 
 public class ListManagerTest {
