@@ -20,7 +20,7 @@ public class ListManagerTest {
     public void shouldAddElementToTheList(){
 //        ListManager listManager = new ListManager();
 //        List list = new ArrayList<>();
-        listManager.addElement(list,3);
+         listManager.addElement(list,3);
         listManager.addElement(list,4);
         listManager.addElement(list,5);
 
