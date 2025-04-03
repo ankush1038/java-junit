@@ -35,6 +35,6 @@ class CalculatorTest {
         Exception exception = assertThrows(ArithmeticException.class, () -> {
             calc.divide(5, 0);
         });
-        assertEquals("Cannot divide by zero", exception.getMessage());
+         assertEquals("Cannot divide by zero", exception.getMessage());
     }
 }
